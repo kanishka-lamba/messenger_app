@@ -1,3 +1,4 @@
+import React from "react";
 function FriendList({ friends, onSelectFriend, selectedFriend }) {
   return (
     <div className="flex flex-col bg-blue-100 h-screen">
