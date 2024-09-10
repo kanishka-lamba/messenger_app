@@ -28,7 +28,7 @@ function ChatWindow({ messages, onSendMessage }) {
       </div>
 
       {/* Message List */}
-      <div className="flex flex-col-reverse flex-grow overflow-y-auto">
+      <div className="flex flex-col justify-end flex-grow overflow-y-auto">
         {messages.map((msg, idx) => (
           <div key={idx} className="flex justify-end mb-2">
             <p className="bg-blue-700 text-white p-3 rounded-lg max-w-xs text-sm break-words">
